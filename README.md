@@ -1,35 +1,20 @@
-# 🦀🕸 `rust-webpack-template`
+# 🦀🕸 `wasm-rust`
 
-> **Kickstart your Rust, WebAssembly, and Webpack project!**
+> **  Rust, WebAssembly, and Webpack project!**
 
-This template is designed for creating monorepo-style Web applications with
+This template is designed for creating Web applications with
 Rust-generated WebAssembly and Webpack without publishing your wasm to NPM.
-
-[**📚 Read this template tutorial! 📚**][template-docs]
-
-Be sure to check out [other `wasm-pack` tutorials online][tutorials] for other
-templates and usages of `wasm-pack`.
-
-[tutorials]: https://rustwasm.github.io/docs/wasm-pack/tutorials/index.html
-[template-docs]: https://rustwasm.github.io/docs/wasm-pack/tutorials/hybrid-applications-with-webpack/index.html
 
 ## 🚴 Using This Template
 
-You can use `npm init` to clone this template:
+You can use clone this template:
+git clone https://github.com/rooat/wasm-rust.git
 
-```sh
-npm init rust-webpack my-app
-```
+#npm install
 
-[Afterwards check out the full documentation for exploring it][template-docs].
+#npm start    
+after print out "complied successfully" 
+look at "http://localhost:8080"
 
-## 🔋 Batteries Included
-
-This template comes pre-configured with all the boilerplate for compiling Rust
-to WebAssembly and hooking into a Webpack build pipeline.
-
-* `npm run start` -- Serve the project locally for development at
-  `http://localhost:8080`.
-
-* `npm run build` -- Bundle the project (in production mode).
-# wasm-rust
+#npm run build
+make dist  
