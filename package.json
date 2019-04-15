@@ -1,0 +1,21 @@
+{
+  "author": "rooat.com <welling1234@gmail.com>",
+  "name": "wasm-rust",
+  "version": "1.0.0",
+  "repository": "https://github.com/rooat/wasm-rust.git",
+  "license": "(ISC)",
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "build": "webpack"
+  },
+  "bin": {
+    "wasm-rust": ".bin/wasm-rust.js"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "0.2.7",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
