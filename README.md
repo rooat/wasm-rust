@@ -1,14 +1,14 @@
-# 🦀🕸 `wasm-rust`
+# `wasm-rust`
 
 > **  Rust, WebAssembly, and Webpack project!**
 
 This template is designed for creating Web applications with
 Rust-generated WebAssembly and Webpack without publishing your wasm to NPM.
 
-## 🚴 Using This Template
+##  Using This Template
 
 You can use clone this template:
-git clone https://github.com/rooat/wasm-rust.git
+#git clone https://github.com/rooat/wasm-rust.git
 
 #npm install
 
